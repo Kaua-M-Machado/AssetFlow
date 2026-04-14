@@ -2,10 +2,6 @@
 
 Sistema web para gestão de inventário de hardware de TI.
 
-## Requisitos
-
-- Node.js instalado (versão 14 ou superior)
-
 ## Como executar
 
 1. Abra o terminal na pasta do projeto
@@ -49,3 +45,7 @@ inventario/
 | Modelo/Marca | Descrição do equipamento (ex: Dell Inspiron 15) |
 | Colaborador | Nome completo do usuário responsável |
 | Setor | TI, RH, Financeiro, Comercial, etc. |
+
+## Descrição
+
+Do inglês Asset é "Ativo" como a proposta do desafio é uma gestão de ativos dos hardware´s, através desta aplicação você pode de maneira simples realizar o cadastro do usuário, qual setor este mesmo está localizado, informar qual seria o tipo de aparelho como monitor, notebook, switch. Seu modelo/marca e por fim clicar em cadastrar ativo. Para conseguir utilizar o mesmo deverá utilizar no terminal da aplicação 'node server.js'. após isso será salvo no sistema o cadastro e os dados não serão perdidos em um reload. Utilizado html, css, js. 
